@@ -3,9 +3,7 @@ version : 0.1
 phases:
   build:
     commands:
-      - echo Nothing to do yet
-      - echo Build completed on `date`
-  artifacts:
+      - echo Nothing to do yet  
     files:
       - index.html
       - favicon.ico
