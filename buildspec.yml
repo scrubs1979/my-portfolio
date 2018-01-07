@@ -10,3 +10,5 @@ phases:
       - favicon.ico
       - styles/main.css
       - images/*
+      - deploy/*
+  discard-paths: yes    
