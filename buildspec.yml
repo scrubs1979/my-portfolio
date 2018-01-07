@@ -1,12 +1,10 @@
 version : 0.1
 
 phases:
-  Build:
+  build:
     commands:
-      - echo Nothing yet
-  post_build:
-    commands:
-      - echo Build completed on `date`
+      - echo Nothing to do yet
+    artifacts:
     files:
       - index.html
       - favicon.ico
