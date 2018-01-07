@@ -4,11 +4,10 @@ phases:
   build:
     commands:
       - echo Nothing to do yet
-    artifacts:
-    files:
-      - index.html
-      - favicon.ico
-      - styles/main.css
-      - images/*
-      - deploy/*
-  discard-paths: yes    
+artifacts:
+      files:
+        - index.html
+        - favicon.ico
+        - styles/main.css
+        - images/*
+    
