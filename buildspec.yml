@@ -1,6 +1,8 @@
 version : 0.1
 
 phases:
+  post_build:
+    - echo Build completed on `date`
   build:
     commands:
       - echo Nothing to do yet
